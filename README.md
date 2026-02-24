@@ -1,6 +1,17 @@
 # Myducom Beta MVP (HeroUI)
 
-Minimalistisches Frontend-Prototyp für eine mandantenfähige Vertrags-/IT-Management Plattform.
+Mandantenfähiger MVP-Prototyp für Vertragsverwaltung, IT-Management und Kostenkontrolle.
+
+## Features (MVP)
+
+- Rollen: `CUSTOMER`, `STAFF`, `ADMIN`
+- Tenant-Isolation im Frontend-Scope (Demo)
+- Tabs: Dashboard, Mitarbeiter, Verträge, Tickets, Admin
+- Dashboard mit Monats-Kacheln, Jahresverlauf, Vertragsstatus und Geräteübersicht
+- Mitarbeiter-Detail mit Vertrags- und Gerätetabellen (feste Spaltenreihenfolge)
+- Vertrags-Zuordnungsübersicht auf Mitarbeiter-Ebene
+- Tickets: Erfassung + Workflow-Visualisierung + Zuständigkeit
+- Globale Suche über Mitarbeiter, Geräte, SIMs, Verträge
 
 ## Start
 
@@ -9,11 +20,4 @@ npm install
 npm run dev
 ```
 
-## Enthalten
-
-- Rollen-Simulation (CUSTOMER / STAFF / ADMIN)
-- Tenant-Scoping auf alle Hauptdaten
-- Tabs: Dashboard, Mitarbeiter, Verträge, Tickets, Admin (nur ADMIN)
-- Globale Suche (Mitarbeiter, Geräte, SIM, Verträge)
-- Kostenkarten im Dashboard (Verträge / Mietgeräte / Owned / Gesamt)
-
+> Hinweis: Diese Umgebung kann ggf. npm-Registry-Zugriff einschränken (403).
