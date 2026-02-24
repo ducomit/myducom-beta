@@ -1,6 +1,12 @@
-# Myducom Beta MVP (HeroUI)
+# Myducom Beta MVP (HeroUI + shadcn/ui style)
 
 Mandantenfähiger MVP-Prototyp für Vertragsverwaltung, IT-Management und Kostenkontrolle.
+
+## UI Stack
+
+- **HeroUI** für produktive Komponenten: Tabs, Tables, Cards, Selects, Inputs, Chips
+- **shadcn/ui style** als lokale Primitives (`src/components/ui`) für Buttons, Card-Container und Formfelder
+- Kombination aus beiden für eine klare, minimalistische UX
 
 ## Features (MVP)
 
